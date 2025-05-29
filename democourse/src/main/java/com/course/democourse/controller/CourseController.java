@@ -17,7 +17,7 @@ import com.course.democourse.entity.Course;
 import com.course.democourse.service.CourseService;
 
 @RestController
-@RequestMapping("/course")
+@RequestMapping("/courses")
 public class CourseController {
 	@Autowired
 	private CourseService courseService;
